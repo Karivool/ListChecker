@@ -50,8 +50,6 @@ class List extends Component {
   }
 
   updateChange(section, sectCount, allTotal) {
-    console.log(sectCount);
-    console.log(allTotal);
   }
 
   render() {

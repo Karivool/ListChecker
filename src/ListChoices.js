@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class ListChoices extends Component {
   constructor(props) {
     super(props);
-    // console.log(props)
     this.state = {
       choices: props.choices,
       section: props.section,
@@ -14,7 +13,6 @@ class ListChoices extends Component {
   render() {
     const choices = this.state.choices;
     const section = this.state.section;
-    console.log (choices.length);
     return (
       <div className="list-item">
         { choices.map((option, idx) => {
